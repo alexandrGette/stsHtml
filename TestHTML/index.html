@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="normilize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Test js</title>
+</head>
+<body>
+    <main>
+        <section class="main__form main-form">
+            <div class="container">
+                <div class="main-form__wrapper">
+                    <img src="img/form-img.jpg" alt="уборка дивана" class="main-form__img" width="">
+                    <div class="main-form__form-block form-block">
+                        <h3 class="form-block__title">Не нашли подходящую услугу <br> или не знаете с чего начать?</h3>
+                        <p class="form-block__text text">Оставьте заявку и наш специалист свяжется с вами, даст полную и детальную информацию бесплатно!</p>
+                        <form method="POST" class="form-block__form form">
+                            <div class="form__inner">
+                                <div class="input-wrapper">
+                                    <input type="text" name="name" class="form__input form__input_name"placeholder="Имя">
+                                </div>
+                                <div class="input-wrapper">
+                                    <input type="tel" name="tel" class="form__input form__input_tel"  placeholder="+ 7 999 123-90-90" value="">
+                                </div>  
+                            </div>
+                            <label for="checkbox">                
+                                <p class="form__checkbox-text text"><input type="checkbox" name="checkbox" id="checkbox" class="form__input_checkbox form__input">согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности.</p> 
+                            </label>
+                            <button type="submit" name="submit" class="form__submit">Отправить</button>
+                        </form>
+                    </div>
+                    <div class="main-form__aside">
+                        <p class="main-form__aside-text text">С вами свяжутся в течение 5 минут!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__certificates certificates">
+            <div class="container container_certificates">
+                <div class="certificates__wrapper">
+                    <div class="certificates__column_left">
+                        <h2 class="certificates__title subtitle">Сертификаты</h2>
+                        <p class="certificates__text text">Гарантия высокого качества работ</p>
+                        <p class="certificates__text_reg text">В компании «Стс-Уборка» ежегодно <br> выполняет  сертификацию клининговых услуг <br> с правом аккредитации других организаций <br> в качестве Органов по сертификации в Системе <br> СДС «СККР».</p>
+                    </div>
+                    <div class="certificates__column_right">
+                        <div class="certificates__slider slider swiper-container">
+                            <div class="slider__items swiper-wrapper">
+                                <div class="slider__item swiper-slide">
+                                    <img src="img/sertivicate-img.jpg" alt="" class="slider__img">
+                                </div>
+                                <div class="slider__item swiper-slide">
+                                    <img src="img/sertivicate-img.jpg" alt="" class="slider__img">
+                                </div>
+                                <div class="slider__item swiper-slide">
+                                    <img src="img/sertivicate-img.jpg" alt="" class="slider__img">
+                                </div>
+                                <div class="slider__item swiper-slide">
+                                    <img src="img/sertivicate-img.jpg" alt="" class="slider__img">
+                                </div>
+                                <div class="slider__item swiper-slide">
+                                    <img src="img/sertivicate-img.jpg" alt="" class="slider__img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__interface">
+                            <button class="slider__button_prev slider__button">
+                                <svg width="60" height="11" viewBox="0 0 60 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path  fill-rule="evenodd" clip-rule="evenodd" d="M10 3.81528V0.635254L0 5.63525L10 10.6353V6.99528H59.9999V3.81528H10Z" fill="white"/>
+                                </svg>
+                            </button>
+                            <button class="slider__button_next slider__button">
+                                <svg width="61" height="11" viewBox="0 0 61 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path  fill-rule="evenodd" clip-rule="evenodd" d="M50.46 3.81528V0.635254L60.46 5.63525L50.46 10.6353V6.99528H0.460102V3.81528H50.46Z" fill="white"/>
+                                </svg>                                        
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__work-results work-results">
+            <div class="container">
+                <div class="work-results__top">
+                    <h2 id="anchor" class="work-results__title subtitle">Результаты работы</h2>
+                    <p class="work-results__text text">Ежедневная уборка коммерческих помещений,<br> спецработы, уборка на мероприятиях, а также <br> специальные услуги.</p>
+                </div>
+                <ul class="work-results__list results">
+                    <li class="results__item">
+                        <img src="img/res-1.jpg" alt="" class="results__img">
+                        <p class="results__text text">Lorem ipsum</p>
+                    </li>
+                    <li class="results__item">
+                        <img src="img/res-2.jpg" alt="" class="results__img">
+                        <p class="results__text text">Lorem ipsum</p>
+                    </li>
+                    <li class="results__item">
+                        <img src="img/res-3.jpg" alt="" class="results__img">
+                        <p class="results__text text">Lorem ipsum</p>
+                    </li>
+                    <li class="results__item">
+                        <img src="img/res-4.jpg" alt="" class="results__img">
+                        <p class="results__text text">Lorem ipsum</p>
+                    </li>
+                    <li class="results__item">
+                        <img src="img/res-5.jpg" alt="" class="results__img">
+                        <p class="results__text text">Lorem ipsum</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="main__services services">
+            <div class="container">
+                <div class="services__top">
+                    <h2  class="services__tittle subtitle">Выберите услугу</h2>
+                    <div class="services__tabs tabs">
+                        <ul class="tabs__list">
+                            <li class="tabs__item "><button class="tabs__button active" data-id="1">Компаниям</button></li>
+                            <li class="tabs__item"><button class="tabs__button" data-id="2">Частным клиентам</button></li>
+                            <li class="tabs__item mark"><button class="tabs__button" data-id="3">Спец. услуги</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="services__content" >
+                    <ul class="services__list animate__animated  active" data-id="1" >
+                        <li class="services__item">
+                            <img src="img/serv-icon-1.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Ежедневная уборка</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-2.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Промышленный клининг</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-3.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Мойка окон и фасадов</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-4.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Уборка офисов под ключ</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-5.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Послестроительная уборка</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-6.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Клининг для ТСЖ, ЖСК, УК</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-7.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Обслуживание мероприятий</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-8.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Предоставление персонала</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link">Подробнее</a>
+                        </li>
+                    </ul>
+                    <ul class="services__list animate__animated " data-id="2">
+                        <li class="services__item">
+                            <img src="img/serv-icon-1.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Ежедневная уборка</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-2.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Промышленный клининг</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-3.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Мойка окон и фасадов</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-4.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Уборка офисов под ключ</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-5.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Послестроительная уборка</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-6.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Клининг для ТСЖ, ЖСК, УК</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-7.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Обслуживание мероприятий</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-8.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Предоставление персонала</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link">Подробнее</a>
+                        </li>
+                    </ul>
+                    <ul class="services__list animate__animated " data-id="3">
+                        <li class="services__item">
+                            <img src="img/serv-icon-1.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Ежедневная уборка</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-2.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Промышленный клининг</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-3.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Мойка окон и фасадов</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-4.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Уборка офисов под ключ</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-5.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Послестроительная уборка</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-6.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Клининг для ТСЖ, ЖСК, УК</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-7.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Обслуживание мероприятий</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link ">Подробнее</a>
+                        </li>
+                        <li class="services__item">
+                            <img src="img/serv-icon-8.svg" alt="" class="services__img">
+                            <h4 class="services__name text">Предоставление персонала</h4>
+                            <p class="services__description">Квартир, зданий, производственных помещений и офсиов</p>
+                            <a href="" class="services__link">Подробнее</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script/validation.js"></script>
+    <script src="script/slider.js"></script>
+    <script src="script/tabs.js"></script>
+    <script src="script/animation.js"></script>
+</body>
+</html>
